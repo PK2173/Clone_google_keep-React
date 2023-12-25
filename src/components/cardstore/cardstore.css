@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(16, 53, 155, 0.603);
+    padding: 20px;
+    color: white;
+}
+
+.inptcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.maininput {
+    min-width: 30vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 8px 10px #88888881;
+}
+
+.title input , input:focus {
+    border: none;
+    font-size: 25px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.writenote textarea , textarea:focus {
+    border: none;
+    outline: none;
+    width: 30vw;
+}
+
+.maininput button {
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 40px;
+    color: red;
+    background-color:aquamarine;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    box-shadow: 5px 5px 15px 5px #88888881;
+    width: 15vw;
+    min-height: 20vh;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card button {
+    float:right;
+    border: navajowhite;
+    cursor: pointer;
+    font-size: 15px;
+}
+.card button:hover {
+    font-size: 20px;
+}
+
+.cardcontaint {
+    background-color: rgba(11, 11, 70, 0.507);
+    min-height: 18vh;
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    background-color: #88888881;
+    padding: 5px;
+    border-radius: 10px;
+}
